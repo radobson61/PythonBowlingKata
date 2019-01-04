@@ -106,23 +106,67 @@ NOTE: I've had some differening experiences with the refactoring widget in VSCod
 
 # Third Test
 ## first special handling case - A Spare
+Whew! 2 tests down. Both have been pretty simple. Now I need to tackle one of the special cases, a Spare. A spare is when I get 10 pins in two rolls in a frame. So now I have to add the concept of a frame and some kind of test for a frame score.  
+
 ### write the test (red)
+First I'll write the test. I roll a 5,  then another 5 (to make my Spare), then the 3 because I get to use the first ball of the next frame as my bonus for picking up the Spare. 
+
+As soon as I write the test, I can see there isn't an easy way to make it pass. I  have to refactor my Game() class to create a simple way to make this test pass, so I comment out my recently added test and do a "giant" refactor of my Game() class. I get it working (running my two tests frequently) and then clean it up, to make it more readable.
+
+Now I can uncomment my third test and run it, and it fails. Hooray!!
+
+AssertionError: 16 != 100
 
 ### make it pass (green)
+Now I have a simple if test I can do to make the 3rd test pass
+
+test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok
+test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok
+test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok
 
 ### refactor (including the test)
+Green is good,  but I'm not done yet. I need to refactor my code, to make it more readable (to non python speakers). 
+
+And I need to check my test code for cleanliness as well. 
 
 # Fourth Test
 ## second special case -  A strike
+Bowling has another special case, a Strike. A Strike is when I get 10 pins in the first roll in a frame. I get a different bonus for a Strike.
 ### write the test (red)
+So I write my test, rolling a 10, then a 3 and a 4. My score for this should be 24. 
+
+And the test fails, as it should.
+
+IndexError: list index out of range
 
 ### make it pass (green)
+Based on experience, I'm going to ignore the index out of range error and just focus on the simplest thing I can do to make the test pass.
+
+test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok
+test_when_a_strike_is_followed_by_3_and_4_score_is_24 (game_test.Game_Tests) ... ok
+test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok
+test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok
+
 
 ### refactor (including the test)
+And then of course, check for opportunities to improve the design of the existing code (aka refactor)
+
+And I won't forget to clean my test code either
 
 # Last Test
 ## special call - all 10s (a perfect game)
+The last special case in bowling is the "Perfect Game" where I roll all strikes. Becase I only get 1 roll in a frame where I get a strike, but I get two rolls after a frame with a strike, I get a total of 12 rolls of 10
 ### write the test (red)
+This test case is fairly simple because of the amount of reuse I can do.
 
+Unfortunately, this test didn't fail.
+
+test_a_perfect_game_is_300 (game_test.Game_Tests) ... ok
+test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok
+test_when_a_strike_is_followed_by_3_and_4_score_is_24 (game_test.Game_Tests) ... ok
+test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok
+test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok
+
+I double check with my business owner to ensure I understand the rules of scoring correctly. Once I confirm that, I realize my Game() is complete for all the normal cases in bowling, my code is clean (and tested) and somewhere there is a reward waiting for me 
 
 
