@@ -54,7 +54,15 @@ I run all my unit tests (Commmand-Shift-P: Python: Run All Unit Tests) and get a
 
 I can see the failure by viewing the Output window (with Python Test Log selected in the drop down).  
 
-AssertionError: 0 != None
+`AssertionError: 0 != None`
+
+I can  also see an indicator of a failing test in the status bar
+
+[images/Test1Fails.png]
+
+And finally, the test code has a decorator that both shows the status and allows me to re-run the test by double clicking it
+
+[images/FailingTestDecorator.png]
 
 ### make it pass (green)
 For me, writing small tests is often a challenge. Writing the smallest code that will make a failing test pass is more so. Its important. So I'll write the SMALLEST code that will make this test pass.
