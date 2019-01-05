@@ -167,7 +167,7 @@ And the test fails, as it should.
 
 This time my status bar looks different. The triangle I saw before for a failing assertion is replaced by an X, indicating a failure to build
 
-![Test 4 Fails](/images/Test4FailsError.png)
+![Test 4 Fails](/images/TestFourFailsError.png)
 
 ### make it pass (green)
 Based on experience, and because I know I just made a very small change, I'm going to ignore the index out of range error and just focus on the simplest thing I can do to make the test pass.
