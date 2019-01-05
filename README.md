@@ -77,7 +77,7 @@ return 0
 
 And in my output window I see the confirmation the test passed. 
 
-`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`
+`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
 
 The VSCode status bar also shows me I have 1 passing test.
 
@@ -95,7 +95,7 @@ This test case looks a lot like my first one. I can rip through it because I don
 
 I run this test and get 1 passing and 1 failing test in both my Output (Python Test Log) window and my VSCode status bar.
 
-`AssertionError: 20 != 0`
+`AssertionError: 20 != 0`  
 
 The test code also has a decoration above the failing method.
 
@@ -106,8 +106,8 @@ This is exactly what I expect (and demand).
 ### make it pass (green)
 The simplest thing I can do here is to add each roll to a variable and return that.
 
-`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`
-`test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`
+`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
+`test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`  
 
 And the status bar
 
@@ -135,7 +135,7 @@ As soon as I write the test, I can see there isn't an easy way to make it pass. 
 
 Now I can uncomment my third test and run it, and it fails. Hooray!!
 
-`AssertionError: 16 != 100`
+`AssertionError: 16 != 100`  
 
 And I confirm all the others pass by inspecting the status bar
 
@@ -144,9 +144,9 @@ And I confirm all the others pass by inspecting the status bar
 ### make it pass (green)
 Now I have a simple if test I can do to make the 3rd test pass
 
-`test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok`
-`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`
-`test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`
+`test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok`  
+`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
+`test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`  
 
 ![Test 3 Passes](/images/Test3Passes.png)
 
@@ -172,10 +172,10 @@ This time my status bar looks different. The triangle I saw before for a failing
 ### make it pass (green)
 Based on experience, and because I know I just made a very small change, I'm going to ignore the index out of range error and just focus on the simplest thing I can do to make the test pass.
 
-`test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok`
-`test_when_a_strike_is_followed_by_3_and_4_score_is_24 (game_test.Game_Tests) ... ok`
-`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`
-`test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`
+`test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok`  
+`test_when_a_strike_is_followed_by_3_and_4_score_is_24 (game_test.Game_Tests) ... ok`  
+`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
+`test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`  
 
 ![Test 4 Passes](/images/TestFourPasses.png)
 
