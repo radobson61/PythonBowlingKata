@@ -58,11 +58,11 @@ I can see the failure by viewing the Output window (with Python Test Log selecte
 
 I can  also see an indicator of a failing test in the status bar
 
-![Test 1 Fails]("/images/Test1Fails.png")
+![Test 1 Fails](/images/Test1Fails.png)
 
 And finally, the test code has a decorator that both shows the status and allows me to re-run the test by double clicking it
 
-![Test Method Decorator]("/images/FailingTestDecorator.png")
+![Test Method Decorator](/images/FailingTestDecorator.png)
 
 ### make it pass (green)
 For me, writing small tests is often a challenge. Writing the smallest code that will make a failing test pass is more so. Its important. So I'll write the SMALLEST code that will make this test pass.
