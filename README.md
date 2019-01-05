@@ -2,7 +2,7 @@
 Standard bowling kata for python
 
 # Purpose
-I use the bowling kata to learning new languages. It helps me to fix one side of the problem (the "business" side) so I can focus on learning the new ("language") side.  
+I use the bowling kata to learn new languages. It helps me to fix one side of the problem (the "business" side) so I can focus on learning the new ("language") side.  
 
 The bowling kata is helpful because it provides clear opportunties to exerice the *RED/GREEN/REFACTOR* cycle and exercises common elements of the new language (class, method, loops, arrays (or lists)).  
 
