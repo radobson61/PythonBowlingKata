@@ -192,11 +192,11 @@ This test case is fairly simple because of the amount of reuse I can do.
 
 Unfortunately, this test didn't fail.
 
-`test_a_perfect_game_is_300 (game_test.Game_Tests) ... ok`
-`test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok`
-`test_when_a_strike_is_followed_by_3_and_4_score_is_24 (game_test.Game_Tests) ... ok`
-`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`
-`test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`
+`test_a_perfect_game_is_300 (game_test.Game_Tests) ... ok`  
+`test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok`  
+`test_when_a_strike_is_followed_by_3_and_4_score_is_24 (game_test.Game_Tests) ... ok`  
+`test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
+`test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`  
 
 ![Test 5 Passes](/images/TestFivePasses.png)
 
