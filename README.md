@@ -111,7 +111,7 @@ The simplest thing I can do here is to add each roll to a variable and return th
 
 And the status bar
 
-![Test 2 Passes](/images/Test2Passes/png)
+![Test 2 Passes](/images/Test2Passes.png)
 
 ### refactor (including the test)
 Now that I have a safety net in place, I can refactor. The production code (on the right) seems clean. The test code (which is first class, important code) has some duplication. So I'll clean that up.
