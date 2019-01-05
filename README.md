@@ -185,7 +185,7 @@ And then of course, check for opportunities to improve the design of the existin
 And I won't forget to clean my test code either
 
 # Last Test
-## special call - all 10s (a perfect game)
+## special case - all 10s (a perfect game)
 The last special case in bowling is the *Perfect Game* where I roll all strikes. Becase I only get 1 roll in a frame where I get a strike, but I get two rolls after a frame with a strike, I get a total of 12 rolls of 10
 ### write the test (red)
 This test case is fairly simple because of the amount of reuse I can do.
