@@ -4,4 +4,4 @@ class Game():
         ...
     
     def score(self):
-        return None 
+        return 0 
