@@ -147,7 +147,13 @@ Whew! 2 tests down. Both have been pretty simple. Now I need to tackle one of th
 ### write the test (red)
 First I'll write the test. I roll a 5,  then another 5 (to make my Spare), then the 3 because I get to use the first ball of the next frame as my bonus for picking up the Spare. 
 
-As soon as I write the test, I can see there isn't an easy way to make it pass. I  have to refactor my Game() class to create a simple way to make this test pass, so I comment out my recently added test and do a "giant" refactor of my Game() class. I get it working (running my two tests frequently) and then clean it up, to make it more readable.
+[Third Test: no easy change. Need to refactor](https://github.com/radobson61/PythonBowlingKata/blob/master/game_test.py)
+
+As soon as I write the test, I can see there isn't an easy way to make it pass. I  have to refactor my Game() class to create a simple way to make this test pass, so I comment out my recently added test and do a "giant" refactor of my Game() class. I refactor my Game() class in small steps, running my tests after each step to ensure my refactoring hasn't broken anything.
+
+
+
+I get it working (running my two tests frequently) and then clean it up, to make it more readable.
 
 Now I can uncomment my third test and run it, and it fails. Hooray!!
 
