@@ -136,6 +136,8 @@ After each small refactoring step I run my tests to ensure that I'm safe.
 
 I also see the for loop has a lot of repeated code, and I think I might use it more, so I refactor that by extrating a method, again running my tests after each step. 
 
+[Second Test Refactor: for loop](https://github.com/radobson61/PythonBowlingKata/commit/fd918ef215eb27a6e6f0dfe81c73986e9271a7c0)
+
 *NOTE: I've had some differening experiences with the refactoring widget in VSCode via the Python Extension. Sometimes it works like I expect  and sometimes not. I haven't done enough research to get to a a root cause. This inconsistency causes me to run the tests more than I would if I trusted the refactoring tool*
 
 # Third Test
