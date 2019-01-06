@@ -28,11 +28,14 @@ class Game_Tests(unittest.TestCase):
         self.assertEqual(16, self._target.score())
 
     def test_when_a_strike_is_followed_by_3_and_4_score_is_24(self):
-        self._target.roll(10) # 10 in the first roll in a frame is a strike
+        self._rollStrike() 
         self._target.roll(3)
         self._target.roll(4)
         self._rollMany(16,0)
         self.assertEqual(24, self._target.score())
+
+    def _rollStrike(self):
+        self._target.roll(10) 
 
     def _rollSpare(self):
         self._target.roll(5)
