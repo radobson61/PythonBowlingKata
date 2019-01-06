@@ -15,5 +15,6 @@ class Game():
 
     def _frameScore(self, roll):
         return self._rolls[roll] + self._rolls[roll+1]
+        
 
     
