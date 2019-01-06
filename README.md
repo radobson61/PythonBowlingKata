@@ -116,6 +116,8 @@ This is exactly what I expect (and demand).
 ### make it pass (green)
 The simplest thing I can do here is to add each roll to a variable and return that.
 
+[Simple change to make second test pass](https://github.com/radobson61/PythonBowlingKata/commit/c0c395719f0000fb4969f08c26f9b0b5c12ef094)
+
 `test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
 `test_when_all_rolls_are_1_score_is_20 (game_test.Game_Tests) ... ok`  
 
