@@ -191,6 +191,8 @@ Green is good,  but I'm not done yet. I need to refactor my code, to make it mor
 
 And I need to check my test code for cleanliness as well. 
 
+[Third Test Refactor: test code](https://github.com/radobson61/PythonBowlingKata/commit/be7e1304d8a8f61cc9d739b408621f50208ec372)
+
 # Fourth Test
 ## second special case -  A strike
 Bowling has another special case, a *Strike*. A Strike is when I get 10 pins in the first roll in a frame. I get a different bonus for a Strike.
