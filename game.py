@@ -10,12 +10,18 @@ class Game():
         score = 0
         roll = 0
         for frame in range(10):
-            if (self._frameScore(roll) == 10):
-                score += 10 + self._rolls[roll+2]
+            if (self._isSpare(roll)):
+                score += 10 + self._spareBonus(roll)
             else:
                 score += self._frameScore(roll)
             roll += 2
         return score
+
+    def _isSpare(self, roll):
+        return self._frameScore(roll) == 10
+
+    def _spareBonus(self, roll):
+        return self._rolls[roll+2]
 
     def _frameScore(self, roll):
         return self._rolls[roll] + self._rolls[roll+1]
