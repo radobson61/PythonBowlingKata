@@ -52,6 +52,8 @@ This resolves my red squiggle.
 
 Next I will create a for loop to roll zero pins twenty times. I again meet the red squiggle of test failure so I write the SIMPLEST CODE to make it pass. A method in Game() named roll that takes 1 parameter.
 
+[Resolve second red squiggle (roll)](https://github.com/radobson61/PythonBowlingKata/commit/9100c3f838ece5b0a0f6009cbfefcec230189ed8)
+
 Finally, I assert that Game().score() is 0 and I resolve my red squiggle by ensuring Game().score() returns None.
 
 I have a complete test (with my red / green cycle for resolving compiler errors)
