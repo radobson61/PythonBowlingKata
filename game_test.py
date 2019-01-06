@@ -22,12 +22,15 @@ class Game_Tests(unittest.TestCase):
         self.assertEqual(20, self._target.score())
 
     def test_when_a_spare_is_followed_by_3_score_is_16(self):
-        self._target.roll(5)
-        self._target.roll(5) # 10 in two rolls in a frame is a spare
+        self._rollSpare()
         self._target.roll(3)
         self._rollMany(17, 0)
         self.assertEqual(16, self._target.score())
 
+    def _rollSpare(self):
+        self._target.roll(5)
+        self._target.roll(5) 
+        
     def _rollMany(self, rolls, pins):
         for roll in range(rolls):
             self._target.roll(pins)
