@@ -212,6 +212,8 @@ This time my status bar looks different. The triangle I saw before for a failing
 ### make it pass (green)
 Based on experience, and because I know I just made a very small change, I'm going to ignore the index out of range error and just focus on the simplest thing I can do to make the test pass.
 
+[Fourth Test Passes: simplest code](https://github.com/radobson61/PythonBowlingKata/commit/13c870b177d2db50101298e0df3c1ab9306ff527)
+
 `test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok`  
 `test_when_a_strike_is_followed_by_3_and_4_score_is_24 (game_test.Game_Tests) ... ok`  
 `test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
@@ -222,13 +224,19 @@ Based on experience, and because I know I just made a very small change, I'm goi
 ### refactor (including the test)
 And then of course, check for opportunities to improve the design of the existing code (aka refactor)
 
+[Fourth Test Refactor: production code](https://github.com/radobson61/PythonBowlingKata/commit/2d6eed412fc7aceed22a9d680e6c1e01b681939d)
+
 And I won't forget to clean my test code either
+
+[Fourth Test Refactor: test code](https://github.com/radobson61/PythonBowlingKata/commit/bb30671a755f9c641eed3124ff5cce8e1733eeeb)
 
 # Last Test
 ## special case - all 10s (a perfect game)
 The last special case in bowling is the *Perfect Game* where I roll all strikes. Becase I only get 1 roll in a frame where I get a strike, but I get two rolls after a frame with a strike, I get a total of 12 rolls of 10
 ### write the test (red)
 This test case is fairly simple because of the amount of reuse I can do.
+
+[Fifth Test: should fail](https://github.com/radobson61/PythonBowlingKata/commit/a4c8399c015aad7e6f966d41881a4d672da96e24)
 
 Unfortunately, this test didn't fail.
 
