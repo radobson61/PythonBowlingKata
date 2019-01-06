@@ -174,7 +174,9 @@ And I confirm all the others pass by inspecting the status bar
 ![Test 3 Fails](/images/Test3Fails.png)
 
 ### make it pass (green)
-Now I have a simple if test I can do to make the 3rd test pass
+Now I have a simple if test I can do to make the 3rd test pass.
+
+[Third Test Passes -> simplest code](https://github.com/radobson61/PythonBowlingKata/commit/6e6a152cfadad1b566abe21f4c07558286e5299c)
 
 `test_when_a_spare_is_followed_by_3_score_is_16 (game_test.Game_Tests) ... ok`  
 `test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
