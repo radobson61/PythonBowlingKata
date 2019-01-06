@@ -46,6 +46,8 @@ As I write the test I need to create an instance of my Game() class. I use the v
 
 When I create a reference to Game(), VSCode indicates a problem with a red squiggle. This is a FAILING test. I can now write the SIMPLEST CODE TO MAKE THIS TEST (and all others) PASS. So I make a new class file (game.py) and a class (Game) and import.
 
+[Resolve Red Squiggle](https://github.com/radobson61/PythonBowlingKata/commit/e0c0926a9d794d98dd704f723554edc80c3a3096)
+
 This resolves my red squiggle. 
 
 Next I will create a for loop to roll zero pins twenty times. I again meet the red squiggle of test failure so I write the SIMPLEST CODE to make it pass. A method in Game() named roll that takes 1 parameter.
