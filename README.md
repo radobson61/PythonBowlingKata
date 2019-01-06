@@ -101,6 +101,8 @@ Now for the next test. I just did one simple one, where all the rolls were the s
 ### write the test (red)
 This test case looks a lot like my first one. I can rip through it because I don't have any more red squiggles. The only two differences are the number of pins I roll and the expected score. Lots of duplicated code here. 
 
+[Second Test Fails](https://github.com/radobson61/PythonBowlingKata/commit/8896de432e5c4dc1b2622c39b161dcbc8144a855)
+
 I run this test and get 1 passing and 1 failing test in both my Output (Python Test Log) window and my VSCode status bar.
 
 `AssertionError: 20 != 0`  
