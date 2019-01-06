@@ -56,6 +56,8 @@ Next I will create a for loop to roll zero pins twenty times. I again meet the r
 
 Finally, I assert that Game().score() is 0 and I resolve my red squiggle by ensuring Game().score() returns None.
 
+[Resolve third red squiggle (score) and failing test](https://github.com/radobson61/PythonBowlingKata/commit/313e3820eb675cf72ba5d335b5479fd8a82edb67)
+
 I have a complete test (with my red / green cycle for resolving compiler errors)
 
 I run all my unit tests (Commmand-Shift-P: Python: Run All Unit Tests) and get a box telling me to enable a Unit Test Framework. When you Enable a testing framework in VS Code (Python) you'll get prompted to configure the testing framework. Select unittest or the framework, root for the directory and *_test.py for the format of the file. (Note: you can configure VSCode for defaults for test framework and the rest. I leave it, as I'm still learning VSCode and this is part of the kata for me.)
