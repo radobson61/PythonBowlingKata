@@ -201,6 +201,8 @@ So I write my test, rolling a 10, then a 3 and a 4. My score for this should be 
 
 And the test fails, as it should.
 
+[Fourth Test Fails](https://github.com/radobson61/PythonBowlingKata/commit/dedc5c54f60ddff0e3842d031a2f0a68eba01056)
+
 `IndexError: list index out of range`
 
 This time my status bar looks different. The triangle I saw before for a failing assertion is replaced by an X, indicating a failure to build
