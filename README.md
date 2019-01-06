@@ -161,6 +161,8 @@ Next I need to introduce the concept of a frame.
 
 I get it working (running my two tests frequently) and then clean it up, to make it more readable.
 
+[Third Test Refactor: Clean code](https://github.com/radobson61/PythonBowlingKata/commit/ae9a07f890afef743610f920186aec84df7fca01#diff-6fe00c2f1ee99d519ee25e4f44ea35b5)
+
 Now I can uncomment my third test and run it, and it fails. Hooray!!
 
 `AssertionError: 16 != 100`  
