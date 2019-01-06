@@ -34,6 +34,10 @@ class Game_Tests(unittest.TestCase):
         self._rollMany(16,0)
         self.assertEqual(24, self._target.score())
 
+    def test_a_perfect_game_is_300(self):
+        self._rollMany(12, 10)
+        self.assertEqual(300, self._target.score())
+
     def _rollStrike(self):
         self._target.roll(10) 
 
