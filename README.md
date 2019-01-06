@@ -165,6 +165,8 @@ I get it working (running my two tests frequently) and then clean it up, to make
 
 Now I can uncomment my third test and run it, and it fails. Hooray!!
 
+[Third Test Fails](https://github.com/radobson61/PythonBowlingKata/commit/f5052d6703589c2e9423db5b701659622051930b)
+
 `AssertionError: 16 != 100`  
 
 And I confirm all the others pass by inspecting the status bar
