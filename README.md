@@ -1,5 +1,5 @@
 # PythonBowlingKata
-Standard bowling kata for python
+Standard bowling kata adapted for Python
 
 # Purpose
 I use the bowling kata to learn new languages. It helps me to fix one side of the problem (the "business" side) so I can focus on learning the new ("language") side.  
@@ -248,6 +248,6 @@ Unfortunately, this test didn't fail.
 
 ![Test 5 Passes](/images/TestFivePasses.png)
 
-I double check with my business owner to ensure I understand the rules of scoring correctly. Once I confirm that, I realize my Game() is complete for all the normal cases in bowling, my code is clean (and tested).
+I double check with my bowling expert to ensure I understand the rules of scoring correctly. Once I confirm that, I realize my Game() is complete for all the normal cases in bowling, my code is clean (and tested).
 
 
