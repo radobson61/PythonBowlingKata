@@ -7,5 +7,7 @@ class Game_Tests(unittest.TestCase):
         target = Game()
         for roll in range(20):
             target.roll(0)
-            
+        self.assertEqual(0, target.score())
+
+        
         
