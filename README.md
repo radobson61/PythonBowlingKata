@@ -151,7 +151,9 @@ First I'll write the test. I roll a 5,  then another 5 (to make my Spare), then 
 
 As soon as I write the test, I can see there isn't an easy way to make it pass. I  have to refactor my Game() class to create a simple way to make this test pass, so I comment out my recently added test and do a "giant" refactor of my Game() class. I refactor my Game() class in small steps, running my tests after each step to ensure my refactoring hasn't broken anything.
 
+First I need to create a collection rolls I can deal with in groups.
 
+[Third Test Refactor: create a list](https://github.com/radobson61/PythonBowlingKata/commit/00fdae066ceecadf86796a256a4ba6e7de19f600)
 
 I get it working (running my two tests frequently) and then clean it up, to make it more readable.
 
