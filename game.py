@@ -10,7 +10,10 @@ class Game():
         score = 0
         roll = 0
         for frame in range(10):
-            score += self._rolls[roll] + self._rolls[roll+1]
+            score += self.newmethod947(roll)
         return score
+
+    def newmethod947(self, roll):
+        return self._rolls[roll] + self._rolls[roll+1]
 
     
