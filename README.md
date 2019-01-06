@@ -81,6 +81,8 @@ For me, writing small tests is often a challenge. Writing the smallest code that
 return 0
 ```
 
+[Simplest change to make this test pass](https://github.com/radobson61/PythonBowlingKata/commit/4f35b427cd42bf135b2d5a85c92bc4f144aeaa91)
+
 And in my output window I see the confirmation the test passed. 
 
 `test_when_all_rolls_are_0_score_is_0 (game_test.Game_Tests) ... ok`  
