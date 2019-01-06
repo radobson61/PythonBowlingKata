@@ -155,6 +155,10 @@ First I need to create a collection rolls I can deal with in groups.
 
 [Third Test Refactor: create a list](https://github.com/radobson61/PythonBowlingKata/commit/00fdae066ceecadf86796a256a4ba6e7de19f600)
 
+Next I need to introduce the concept of a frame.
+
+[Third Test Refactor: deal with frames](https://github.com/radobson61/PythonBowlingKata/commit/184f764441756e6109d64411bc414db60d510080)
+
 I get it working (running my two tests frequently) and then clean it up, to make it more readable.
 
 Now I can uncomment my third test and run it, and it fails. Hooray!!
