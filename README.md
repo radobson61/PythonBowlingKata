@@ -187,6 +187,8 @@ Now I have a simple if test I can do to make the 3rd test pass.
 ### refactor (including the test)
 Green is good,  but I'm not done yet. I need to refactor my code, to make it more readable (to non python speakers). 
 
+[Third Test Refactor: production code] (https://github.com/radobson61/PythonBowlingKata/commit/74291ca55d84fb79183b614eb89530c8faa8a33c)
+
 And I need to check my test code for cleanliness as well. 
 
 # Fourth Test
