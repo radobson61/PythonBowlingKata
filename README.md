@@ -130,6 +130,8 @@ Now that I have a safety net in place, I can refactor. The production code (on t
 
 I create a class variable for Game (_target) and reference that. I also ensure I create a new one on each test by using the *unittest* provided *setUp()* and *tearDown()* methods
 
+[Second Test Refactor: Game() initialization](https://github.com/radobson61/PythonBowlingKata/commit/990dbe75d65fe09c582c1a8660538d60d1e315dd)
+
 After each small refactoring step I run my tests to ensure that I'm safe. 
 
 I also see the for loop has a lot of repeated code, and I think I might use it more, so I refactor that by extrating a method, again running my tests after each step. 
